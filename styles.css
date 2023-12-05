@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#search-box {
+    margin-bottom: 20px;
+}
+
+#meal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.meal {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    background-color: #fff;
+}
+
+.meal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
